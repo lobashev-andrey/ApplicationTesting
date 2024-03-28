@@ -16,7 +16,7 @@ public class FibonacciService {
     }
 
     public FibonacciNumber fibonacciNumber(int index) {
-        if (index < 0) {
+        if (index < 1) {
             throw new IllegalArgumentException("Index should be greater or equal to 1");
         }
 
